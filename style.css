@@ -1,0 +1,215 @@
+* {
+    padding: 10px;
+    margin: 0px;
+}
+
+#header {
+    background-image: url(img/box-sport-men-training-163403.jpeg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav li a {
+    float: right;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    background-color: #9a9a9a;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+nav .fa-bars {
+    color: white;
+    font-size: 26px;
+}
+
+/*-----------------Welcome Text-----------------*/
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+}
+
+.welcome h1 {
+    color: #333;
+}
+
+.welcome .btn:focus {
+    box-shadow: none;
+}
+
+/*---------------About Us---------------*/
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+}
+
+#about h3 {
+    margin: 20px auto;
+}
+
+.col-md-4 img {
+    width: 70px;
+    height: auto;
+}
+
+/*---------------Services---------------*/
+
+#services {
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services .col-md-4 {
+    padding: 20px;
+}
+
+#services .col-md-4 h4 {
+    padding: 5px;
+}
+
+#services .col-md-4 img {
+    width: 50px;
+}
+
+#services .col-md-4 p {
+    padding: 5px;
+    text-align: justify;
+}
+
+/*---------------Features---------------*/
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/pexels-photo-949126.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#features .col-md-4 .fa {
+    font-size: 50px;
+}
+
+/*---------------Subscribe---------------*/
+.subscribe {
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    margin-bottom: -160px;
+}
+
+.subscribe h3,
+.subscribe p {
+    color: #fff;
+}
+
+.subscribe .input-group {
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.subscribe .form-control {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+.subscribe .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+}
+
+.subscribe .input-group-append {
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+
+.subscribe .input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.subscribe .btn:focus {
+    box-shadow: none;
+}
+
+/*---------------Footer---------------*/
+#footer {
+    margin-top: 80px;
+    padding: 50px;
+    background-color: #efefef;
+    color: #013f73;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#footer h1 {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer .city {
+    margin-left: 37px;
+}
+
+#footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: -10px;
+}
+
+#footer hr {
+    margin-top: 5px;
+}
+
+#footer .fa-heart-o {
+    color: red;
+    font-size: 17px;
+}
+
+#footer .copyright {
+    margin-bottom: -60px;
+    text-align: center;
+    font-size: 15px;
+}
